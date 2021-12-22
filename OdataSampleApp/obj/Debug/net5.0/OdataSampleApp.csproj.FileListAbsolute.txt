@@ -54,10 +54,10 @@ C:\Users\DELL\source\repos\OdataSampleApp\OdataSampleApp\obj\Debug\net5.0\OdataS
 C:\Users\DELL\source\repos\OdataSampleApp\OdataSampleApp\obj\Debug\net5.0\OdataSampleApp.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\DELL\source\repos\OdataSampleApp\OdataSampleApp\obj\Debug\net5.0\OdataSampleApp.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\DELL\source\repos\OdataSampleApp\OdataSampleApp\obj\Debug\net5.0\staticwebassets\OdataSampleApp.StaticWebAssets.Manifest.cache
-C:\Users\DELL\source\repos\OdataSampleApp\OdataSampleApp\obj\Debug\net5.0\staticwebassets\OdataSampleApp.StaticWebAssets.xml
 C:\Users\DELL\source\repos\OdataSampleApp\OdataSampleApp\obj\Debug\net5.0\scopedcss\bundle\OdataSampleApp.styles.css
 C:\Users\DELL\source\repos\OdataSampleApp\OdataSampleApp\obj\Debug\net5.0\OdataSampleApp.RazorTargetAssemblyInfo.cache
 C:\Users\DELL\source\repos\OdataSampleApp\OdataSampleApp\obj\Debug\net5.0\OdataSampleApp.dll
 C:\Users\DELL\source\repos\OdataSampleApp\OdataSampleApp\obj\Debug\net5.0\ref\OdataSampleApp.dll
 C:\Users\DELL\source\repos\OdataSampleApp\OdataSampleApp\obj\Debug\net5.0\OdataSampleApp.pdb
 C:\Users\DELL\source\repos\OdataSampleApp\OdataSampleApp\obj\Debug\net5.0\OdataSampleApp.genruntimeconfig.cache
+C:\Users\DELL\source\repos\OdataSampleApp\OdataSampleApp\obj\Debug\net5.0\OdataSampleApp.csproj.CopyComplete

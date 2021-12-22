@@ -8,8 +8,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.OData.Edm;
+using Microsoft.OData.ModelBuilder;
 using Microsoft.OpenApi.Models;
 using OdataSampleApp.Data;
+using OdataSampleApp.Data.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,7 +34,8 @@ namespace OdataSampleApp
         {
 
             services.AddControllers()
-                .AddOData(option => option.Select().Filter().Count().OrderBy().Expand().SetMaxTop(100));
+                .AddOData(option => option.Select().Filter().Count().OrderBy().Expand().SetMaxTop(100)
+                .AddRouteComponents("odata",GetEdmModel()));
 
             services.AddSwaggerGen(c =>
             {
@@ -44,6 +48,12 @@ namespace OdataSampleApp
             });
         }
 
+        public static IEdmModel GetEdmModel()
+        {
+            ODataConventionModelBuilder modelBuilder = new ODataConventionModelBuilder();
+            modelBuilder.EntitySet<Product>("OdataProduct");
+            return modelBuilder.GetEdmModel();
+        }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {

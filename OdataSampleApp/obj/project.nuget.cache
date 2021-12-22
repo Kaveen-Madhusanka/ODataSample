@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ngqFlGP8SpjcOxRKs06El9iqzkIkwOghnAORLYsVYAJqIqTton0UVzRnZVXIvHqJ+KW9BrhN0xWjrtjBD79dLQ==",
+  "dgSpecHash": "IXQyGpaP3CvBetunIMQdGcTi0yaDtdgTm72bCNFo2qXCWldim038oppzdiDZzgKaAQB5LF78v2+dCs0Gqw3Ajw==",
   "success": true,
   "projectFilePath": "C:\\Users\\DELL\\source\\repos\\OdataSampleApp\\OdataSampleApp\\OdataSampleApp.csproj",
   "expectedPackageFiles": [
@@ -111,7 +111,8 @@
     "C:\\Users\\DELL\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\DELL\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\DELL\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.11\\microsoft.netcore.app.host.win-x64.5.0.11.nupkg.sha512"
   ],
   "logs": []
 }
